@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+        <link rel="stylesheet" th:href="@{css/tutorial.css}" href="tutorial.css"/>
+        <title>Tutorial - Registration</title>
+    </head>
+
+    <body>
+        <div th:replace="fragments/page::header">Site-wide Page Header</div>
+
+        <table align="center">
+            <tr>
+                <td><h1>Registration</h1></td>
+            </tr>
+        </table>
+
+        <form action="/tutorial/save" th:action="@{save}" th:object="${register}" method="POST">
+            <table align="center">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="name" name="name" placeholder="name" required="required" th:field="*{name}" /></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" id="email" name="email" placeholder="email" required="required" th:field="*{email}" /></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" id="username" name="username" placeholder="username" required="required" th:field="*{username}" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="password" name="password" placeholder="password" required="required" th:field="*{password}" /></td>
+                </tr>
+                <tr>
+                    <td><img src="captcha" th:src="@{/tutorial/captcha}"></td>
+                    <td><input type="text" id="captcha" name="captcha" placeholder="captcha" required="required" th:field="*{captcha}" /></td>
+                </tr>
+                <tr>
+                    <td><input align="right" type="reset" value="Reset" class="button"/></td>
+                    <td><input type="submit" value="Submit" class="button"/></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td/>
+                    <td><a th:align="center" th:href="@{/tutorial}" href="home.html">Home</a></td>
+                    <td/>
+                </tr>
+            </table>
+            <p align="center" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Length Error</p>
+            <div align="center" th:if="${message}" th:text="${message}" th:class="${'alert ' + alertClass}"/>
+        </form>
+
+        <div th:replace="fragments/page::footer">Site-wide Page Footer</div>
+    </body>
+</html>

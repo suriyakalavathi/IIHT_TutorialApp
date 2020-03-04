@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" th:href="@{css/tutorial.css}" href="tutorial.css"/>
+    <title>Tutorial - Logout</title>
+</head>
+
+<body>
+
+<div th:replace="fragments/page::header">Site-wide Page Header</div>
+
+<table align="center">
+    <tr>
+        <td style="font-style: italic; color: red;">Logout</td>
+    </tr>
+</table>
+
+<table align="center">
+    <tr>
+        <td></td>
+        <td>You are logged out! Thank you for visiting!</td>
+        <td></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td></td>
+        <td><a th:href="@{/tutorial}" href="home.html">Home</a></td>
+        <td></td>
+    </tr>
+</table>
+
+<div th:replace="fragments/page::footer">Site-wide Page Footer</div>
+
+</body>
+</html>

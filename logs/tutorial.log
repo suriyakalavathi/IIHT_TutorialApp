@@ -1,0 +1,19 @@
+2020-03-03 15:02:54.945  INFO USHSB5RN2 --- [            main] c.s.t.TutorialApplicationTests           : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-03 16:54:12.028  INFO USDC2P7Y2 --- [           main] c.s.t.TutorialApplicationTests           : No active profile set, falling back to default profiles: default
+2020-03-03 16:54:19.878 DEBUG USDC2P7Y2 --- [           main] c.s.t.TutorialInit                       : PostConstruct: encoding Admin credentials
+2020-03-03 16:54:22.445  INFO USDC2P7Y2 --- [           main] c.s.t.TutorialApplicationTests           : Started TutorialApplicationTests in 10.86 seconds (JVM running for 18.58)
+2020-03-03 22:44:57.480  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Starting TutorialApplicationTests on USDC2P7Y2 with PID 15504 (started by skalimuthu in C:\Users\skalimuthu\Documents\Cognizant\IIHT\TutorialApp\TutorialApp)
+2020-03-03 22:44:57.484 DEBUG USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-03 22:44:57.485  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : No active profile set, falling back to default profiles: default
+2020-03-03 23:23:09.523  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Starting TutorialApplicationTests on USDC2P7Y2 with PID 14924 (started by skalimuthu in C:\Users\skalimuthu\Documents\Cognizant\IIHT\TutorialApp\TutorialApp)
+2020-03-03 23:23:09.527 DEBUG USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-03 23:23:09.527  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : No active profile set, falling back to default profiles: default
+2020-03-03 23:23:15.427  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Started TutorialApplicationTests in 6.135 seconds (JVM running for 12.652)
+2020-03-03 23:25:30.251  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Starting TutorialApplicationTests on USDC2P7Y2 with PID 15644 (started by skalimuthu in C:\Users\skalimuthu\Documents\Cognizant\IIHT\TutorialApp\TutorialApp)
+2020-03-03 23:25:30.256 DEBUG USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-03 23:25:30.257  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : No active profile set, falling back to default profiles: default
+2020-03-03 23:25:38.277  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Started TutorialApplicationTests in 8.32 seconds (JVM running for 15.17)
+2020-03-03 23:36:45.627  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Starting TutorialApplicationTests on USDC2P7Y2 with PID 19416 (started by skalimuthu in C:\Users\skalimuthu\Documents\Cognizant\IIHT\IIHT_TutorialApp)
+2020-03-03 23:36:45.630 DEBUG USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Running with Spring Boot v2.2.2.RELEASE, Spring v5.2.2.RELEASE
+2020-03-03 23:36:45.631  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : No active profile set, falling back to default profiles: default
+2020-03-03 23:36:52.828  INFO USDC2P7Y2 --- [           main] c.c.t.TutorialApplicationTests           : Started TutorialApplicationTests in 7.436 seconds (JVM running for 13.897)

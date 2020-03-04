@@ -1,0 +1,31 @@
+#topBar {
+    height: 10px;
+    background: blue;
+    width: 100%;
+    margin-left: auto;
+}
+
+.button {
+    background-color: #008CBA;
+}
+
+#image {
+    align: center;
+    display: block;
+    margin: auto;
+    width: 30%;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+#errormsg {
+    font-style: italic;
+    color: red;
+}
+
+#bottomBar {
+    height: 10px;
+    background: blue;
+    width: 100%;
+    margin-left: auto;
+}
